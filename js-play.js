@@ -1,13 +1,26 @@
-var myImages = new Array();
+var myImages = [
+  "billMurray-1.jpg",
+  "billMurray-2.jpg",
+  "billMurray-3.jpg",
+  "billMurray-4.jpg",
+  "billMurray-5.jpg",
+  "billMurray-6.jpg",
+  "billMurray-7.jpg",
+  "billMurray-8.jpg",
+  "billMurray-9.jpg",
+  "billMurray-10.jpg",
+]
 
-myImages[0] = "billMurray-1.jpg";
-myImages[1] = "billMurray-2.jpg";
-myImages[2] = "billMurray-3.jpg";
-myImages[3] = "billMurray-4.jpg";
-myImages[4] = "billMurray-5.jpg";
-myImages[5] = "billMurray-6.jpg";
-
-var colors = ["rgb(44,62,80)", "rgb(81,85,35)", "rgb(35,55,49)", "rgb(55,35,40)", "rgb(85,39,35)", "rgb(35,81,85)"]
+var colors = [
+  "rgb(44,62,80)",
+  "rgb(81,85,35)",
+  "rgb(35,55,49)",
+  "rgb(55,35,40)",
+  "rgb(85,39,35)",
+  "rgb(35,81,85)",
+  "rgb(112,128,144)",
+  "rgb(70,130,180)",
+  ]
 
  function generateImage(){
   var random = getRandom(myImages.length);
